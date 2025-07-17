@@ -1,6 +1,3 @@
-Certainly! Here’s a clean, professional README template for your **Brain Tumor Classifier Full-Stack Web App**, modeled on the example you shared:
-
----
 
 # Brain Tumor Classifier Full-Stack Web App 🧠💻
 
@@ -61,44 +58,11 @@ Dataset source: [masoudnickparvar/brain-tumor-mri-dataset](https://www.kaggle.co
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/brain-tumor-classifier.git
-cd brain-tumor-classifier
-```
-
-### 2. Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py  # start Flask server
-```
-
-### 3. Frontend Setup
-
-```bash
-cd ../frontend
-npm install
-npm start  # start React dev server
-```
-
-### 4. Usage
-
-* Open frontend at `http://localhost:3000`
-* Upload MRI scans and view predictions powered by Flask API
-
----
 
 ## 🧰 Tech Stack
 
 * **Python**, **TensorFlow**, **Keras** for model training
-* **Flask** for backend API
+* **FastAPI** for backend API
 * **React** and **Material UI** for frontend UI
 * **Kagglehub** for dataset management
 * **Matplotlib** for visualization
@@ -111,4 +75,3 @@ MIT License - feel free to use and modify!
 
 ---
 
-If you want, I can also help write the `requirements.txt`, Flask app structure, or frontend README! Just ask.
